@@ -2,7 +2,7 @@
 
 ### Overview
 
-**Subject: 간단한 로그인 기능이 포함된 PHP 페이지 작성**
+**Subject: DB를 활용한 게시판 기능 구현**
 
 **Environment**
 
@@ -30,7 +30,7 @@ DB: MySQL
 
 8. Database<a href="#8-database"><sup>[8]</sup></a>
 
-9. Review - Assignment 1<a href="#9-review---assignment-1"><sup>[9]</sup></a>
+9. Review<a href="#9-review"><sup>[9]</sup></a>
 
 10. Ref Links<a href="#9-ref-links"><sup>[10]</sup></a>
 
@@ -71,51 +71,75 @@ DB: MySQL
 
 #### 4. Create post(**_C_**)
 
+1. List shows '*Create Post*'
 ![C - List](/img/crud/c/C%20-%20List.png)
+2. To write a post, need sign in
 ![C - Login](/img/crud/c/C%20-%20Login.png)
+3. Create post
 ![C - Create Post](/img/crud/c/C%20-%20Create%20Post.png)
+  - Invalid submit(Blank title)(이미지 추가)
+![]()
+  - Valid submit
 ![C - Submit](/img/crud/c/C%20-%20Submit.png)
+4. Create post done
 ![C - Complete](/img/crud/c/C%20-%20Complete.png)
 
 ---
 
 #### 5. Read board list(**_R_**)
 
-![R - Read Post](/img/crud/r/R%20-%20Read%20Post.png)
-![R - Hit](/img/crud/r/R%20-%20Hit.png)
-![R - Functions](/img/crud/r/R%20-%20Functions.png)
+1. Read board
 ![R - List](/img/crud/r/R%20-%20List.png)
+2. Read post
+![R - Read Post](/img/crud/r/R%20-%20Read%20Post.png)
+3. Hit goes up when the post clicked.
+![R - Hit](/img/crud/r/R%20-%20Hit.png)
+4. There is '*List*', '*Modify*', '*Delete*' event buttons
+![R - Functions](/img/crud/r/R%20-%20Functions.png)
 
 ---
 
 #### 6. Update post(**_U_**)
 
+1. Modify post
+  - Invalid submit(Blank title)(이미지 추가)
+  - Valid submit
 ![U - Modify Post](/img/crud/u/U%20-%20Modify%20Post.png)
+2. Modify done
 ![U - Complete](/img/crud/u/U%20-%20Complete.png)
+3. Check modified post
 ![U - Check](/img/crud/u/U%20-%20Check.png)
 
 ---
 
 #### 7. Delete post(**_D_**)
 
+1. Gonna delete post '*Number 2*'
 ![D - List](/img/crud/d/D%20-%20List.png)
+2. Delete button in post '*Number 2*'
 ![D - Click](/img/crud/d/D%20-%20Click.png)
+3. Confirm the delete
 ![D - Message](/img/crud/d/D%20-%20Message.png)
+4. Delete done
 ![D - Complete](/img/crud/d/D%20-%20Complete.png)
+5. Check list for delete
 
 ---
 
 #### 8. Database
 
+1. Tables('*board*', '*comment*', '*member*')
 ![DB - Tables](/img/db/DB%20-%20Tables.png)
+2. Attributes in each tables
 ![DB - Columns](/img/db/DB%20-%20Columns.png)
+3. Record in each tables
 ![DB - Records](/img/db/DB%20-%20Records.png)
 
 ---
 
-#### 9. Review - Assignment 1
-- 로그인 성공/실패/예외에 대한것들을 뷰로 따로 두고 개발하였으면 더 좋았을 것(유지보수 용이성)
-- 실패나 예외 상황 발생 시 html과 exit을 활용하는것이 아닌 하나의 단일 페이지에서 ajax로 요청 후 그 결과값에 따라 페이지 이동 없이 띄워주는 것이 베스트
+#### 9. Review
+- '*Comment*' 미완료 -> 형태만 다르고 방식은 동일할 듯
+- 피드백 후 추가 예정
 
 ---
 
