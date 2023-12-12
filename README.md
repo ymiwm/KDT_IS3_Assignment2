@@ -76,8 +76,9 @@ DB: MySQL
 ![C - Login](/img/crud/c/C%20-%20Login.png)
 3. After sign in, create post
 ![C - Create Post](/img/crud/c/C%20-%20Create%20Post.png)
-  - Invalid submit(Blank title)(이미지 추가)
-  ![]()
+  - Invalid submit(Blank title)
+  ![C - Blank Title](/img/crud/c/C%20-%20Blank%20Title.png)
+  ![C - Blank Title Alert](/img/crud/c/C%20-%20Blank%20Title%20Alert.png)
   - Valid submit
   ![C - Submit](/img/crud/c/C%20-%20Submit.png)
 4. Create post done
@@ -104,9 +105,11 @@ DB: MySQL
 #### 6. Update post(**_U_**)
 
 1. Modify post
-  - Invalid submit(Blank title)(이미지 추가)
+  - Invalid submit(Blank title)
+  ![U - Blank Title](/img/crud/u/U%20-%20Blank%20Title.png)
+  ![U - Blank Title Alert](/img/crud/u/U%20-%20Blank%20Title%20Alert.png)
   - Valid submit
-![U - Modify Post](/img/crud/u/U%20-%20Modify%20Post.png)
+  ![U - Modify Post](/img/crud/u/U%20-%20Modify%20Post.png)
 2. Modify done
 ![U - Complete](/img/crud/u/U%20-%20Complete.png)
 3. Check modified post
@@ -142,6 +145,9 @@ DB: MySQL
 
 #### 9. Review
 - '*Comment*' 미완료 -> 형태만 다르고 방식은 동일할 듯
+- 유지보수를 위해 View(?) 사용해보기
+- Ajax 등을 이용해 단일 페이지에서 처리해보기
+  -> 특히 GET, POST에서 분기 시 입력되있던 데이터가 다 사라지는 것을 방지할 수 있음.
 - 피드백 후 추가 예정
 
 ---
