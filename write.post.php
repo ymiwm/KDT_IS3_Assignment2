@@ -5,6 +5,16 @@ $id = $_POST['id'];
 $title = $_POST['title'];
 $content = $_POST['content'];
 
+if ($title == '') {
+    ?>
+    <script>
+        alert("Title must be at least 1 character.");
+        location.replace("write.php");
+    </script>
+    <?php
+    exit();
+}
+
 $query = "ALTER TABLE board auto_increment = 1";
 
 $result = db_update_delete($query);
