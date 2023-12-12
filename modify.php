@@ -82,7 +82,7 @@
                     </tr>
                 </table>
             </form>
-        <?php
+            <?php
         }
         else {
             ?>

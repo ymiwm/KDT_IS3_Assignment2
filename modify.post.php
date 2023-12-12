@@ -6,6 +6,16 @@ $title = $_POST['title'];
 $content = $_POST['content'];
 $number = $_POST['number'];
 
+if ($title == '') {
+    ?>
+    <script>
+        alert("Title must be at least 1 character.");
+        location.replace("modify.php?number=<?= $number ?>&id=<?= $id ?>");
+    </script>
+    <?php
+    exit();
+}
+
 $query = "update board set title=:title, content=:content, date=NOW() where number=:number";
 
 $result = db_update_delete($query,
