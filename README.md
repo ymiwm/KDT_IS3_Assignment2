@@ -30,7 +30,7 @@ DB: MySQL
 
 8. Database<a href="#8-database"><sup>[8]</sup></a>
 
-9. <a href=""><sup>[9]</sup></a>
+9. Review - Assignment 1<a href="#9-review---assignment-1"><sup>[9]</sup></a>
 
 10. Ref Links<a href="#9-ref-links"><sup>[10]</sup></a>
 
