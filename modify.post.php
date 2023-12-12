@@ -16,7 +16,7 @@ if ($title == '') {
     exit();
 }
 
-$query = "update board set title=:title, content=:content, date=NOW() where number=:number";
+$query = "update board set title=:title, content=:content, date=NOW(), hit=0 where number=:number";
 
 $result = db_update_delete($query,
 	array(
