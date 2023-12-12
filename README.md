@@ -7,8 +7,7 @@
 **Environment**
 
 ```
-OS: Ubuntu 18.04 LTS(Goorm IDE - PHP Project Form)
-    -> Kali Linux 6.3.0(VMware)
+OS: Kali Linux 6.3.0(VMware)
 Language: PHP, HTML
 Server: Apache
 DB: MySQL
@@ -65,7 +64,7 @@ DB: MySQL
 #### 3. Sign In, Sign Up, Sign Out
 
 - [Link - KDT_IS3_Assignment1](https://github.com/ymiwm/KDT_IS3_Assignment1)
-  ![Index](/img/index/Index.png)
+![Index](/img/index/Index.png)
 
 ---
 
@@ -75,12 +74,12 @@ DB: MySQL
 ![C - List](/img/crud/c/C%20-%20List.png)
 2. To write a post, need sign in
 ![C - Login](/img/crud/c/C%20-%20Login.png)
-3. Create post
+3. After sign in, create post
 ![C - Create Post](/img/crud/c/C%20-%20Create%20Post.png)
   - Invalid submit(Blank title)(이미지 추가)
-![]()
+  ![]()
   - Valid submit
-![C - Submit](/img/crud/c/C%20-%20Submit.png)
+  ![C - Submit](/img/crud/c/C%20-%20Submit.png)
 4. Create post done
 ![C - Complete](/img/crud/c/C%20-%20Complete.png)
 
@@ -92,10 +91,13 @@ DB: MySQL
 ![R - List](/img/crud/r/R%20-%20List.png)
 2. Read post
 ![R - Read Post](/img/crud/r/R%20-%20Read%20Post.png)
-3. Hit goes up when the post clicked.
+3. '*Hit*' goes up when the post clicked.
 ![R - Hit](/img/crud/r/R%20-%20Hit.png)
 4. There is '*List*', '*Modify*', '*Delete*' event buttons
-![R - Functions](/img/crud/r/R%20-%20Functions.png)
+  - Non-member or other member cannot access '*Modify*' and '*Delete*'.
+  ![R - Non-Author](/img/crud/r/R%20-%20Non-Author.png)
+  - Only '*Author*' can use all buttons.
+  ![R - Functions](/img/crud/r/R%20-%20Functions.png)
 
 ---
 
@@ -122,7 +124,8 @@ DB: MySQL
 ![D - Message](/img/crud/d/D%20-%20Message.png)
 4. Delete done
 ![D - Complete](/img/crud/d/D%20-%20Complete.png)
-5. Check list for delete
+5. Check board list for delete
+![D - Check](/img/crud/d/D%20-%20Check.png)
 
 ---
 
