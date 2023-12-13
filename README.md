@@ -55,9 +55,10 @@ DB: MySQL
 - 게시글 수정(**_U_**\_pdate) - 기본적인 수정. DB에 변경된 내용을 덮어씀.
 <!--Delete post-->
 - 게시판 글 삭제(**_D_**\_elete) - 실수로 삭제되는 것을 방지하기 위해 확인 메세지 추가.
+<!--Optional function-->
+- 조회수(Hit) 구현
 <!--Comment function-->
 - ~~댓글 기능~~(WIP)
-<!--Feedback-->
 
 ---
 
