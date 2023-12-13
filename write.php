@@ -72,6 +72,7 @@
                         </table>
                         <center>
                             <input style="height:26px; width:64px; font-size:16px;" type="submit" value="Submit">
+                            <input style="height:26px; width:64px; font-size:16px;" type="button" onclick="location.href='index.php'" value="Back">
                         </center>
                     </td>
                 </tr>
