@@ -47,7 +47,6 @@ DB: MySQL
 앞서 수행한 [Assignment1](https://github.com/ymiwm/KDT_IS3_Assignment1)의 계정 기능을 기반으로 PHP와 MySQL을 연동하여 CRUD 사용을 중점적으로 수행.
 
 <!--Create post-->
-
 - 게시판 글쓰기(**_C_**\_reate) - MySQL의 `auto_increment`를 이용하여 문서 번호 자동화.
 <!--Read board and post-->
 - 게시판 및 게시글 출력(**_R_**\_ead) - 게시판 출력에 더해 게시글 내부의 기능을 권한에 따라 부여.(Modify / Delete)
